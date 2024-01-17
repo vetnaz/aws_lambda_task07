@@ -36,7 +36,7 @@
       "${account_id}"
     ]
   },
-  "uuid-trigger-12234": {
+  "uuid-storage": {
     "resource_type": "s3_bucket"
   },
   "uuid_trigger": {
