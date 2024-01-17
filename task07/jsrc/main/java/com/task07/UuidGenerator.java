@@ -25,7 +25,7 @@ import java.util.UUID;
 @DependsOn(name = "uuid_trigger", resourceType = ResourceType.CLOUDWATCH_RULE)
 public class UuidGenerator implements RequestHandler<Object, Map<String, Object>> {
 
-    private static final String BUCKET_NAME = "cmtr-985d4752-uuid-trigger-test";
+    private static final String BUCKET_NAME = "cmtr-985d4752-uuid-storage-test";
     private static final String REGION = "eu-central-1";
 
     public Map<String, Object> handleRequest(Object request, Context context) {
