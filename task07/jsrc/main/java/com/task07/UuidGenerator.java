@@ -36,7 +36,7 @@ public class UuidGenerator implements RequestHandler<Object, Map<String, Object>
                 .standard()
                 .withRegion(REGION)
                 .build();
-        String fileName = DateTime.now() + ".txt";
+        String fileName = DateTime.now().toString();
 
         amazonS3.putObject(BUCKET_NAME, fileName, gson.toJson(uudi));
 
